@@ -1,0 +1,24 @@
+#header {
+    background-color: black;
+}
+
+#divLogoHeader {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    width: auto;
+    height: auto;
+}
+
+.textoHeader {
+    color: #AC9242;
+}
+
+#btnReserve {
+    color: #AC9242;
+    border-color: #AC9242;
+}
+#btnReserve:hover {
+    background-color: #AC9242;
+    color: black;
+}

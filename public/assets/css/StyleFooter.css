@@ -2,13 +2,20 @@
     background-color: black;
 }
 
-#marginLogo {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 80px;
+#marginFooter {
+    margin-top: 50px;
+    margin-bottom: 150px;
 }
 
 .textoFooter {
     color: #AC9242;
 }
+
+/*#marginLogo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 200px;
+    height: 200px;
+}*/
