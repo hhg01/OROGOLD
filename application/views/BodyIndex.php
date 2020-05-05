@@ -1,18 +1,34 @@
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
-?><!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>OROGOLD</title>
-
-	<style type="text/css">
-	</style>
-</head>
 <body>
 
-<div id="container">
-	
-</div>
-	<p>hcjsdbc</p>
+    <div id="container">
+        <div class="row">
+            <div class="col">
+                Reserva
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                Tratamientos
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                somos
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                mapa
+            </div>
+            <div class="col">
+                horario
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                oportunidad
+            </div>
+        </div>
+    </div>
+
 </body>
