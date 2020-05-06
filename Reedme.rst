@@ -19,7 +19,7 @@ se creo la carpeta public/assets donde se aloja todos los recursos que se requie
 archivos de estilos y js en sus respectivas carpetas para una buena estructura y facilidad de acceso a los archivos
 
 /**Controlador y Modelo**/
-para esta version solo se requirio de un controlador Homepage.php y un modelo Appointment.php
+para esta version solo se utilizó un controlador Homepage.php y un modelo Appointment.php
     - el controlador tiene dos metodos el index() que carga las vistas y saveAppointment()
       quien se encarga de obtener y verificar los correos, si es el caso guardar el correo
     - el modelo tiene dos metodo el getEmail() para verificar los correos existentes y setAppointment()

@@ -54,7 +54,7 @@
                     <div class="row">
                         <div class="col-2 align-self-center"></div>
                         <div class="col-8 align-self-center">
-                            <p class="text-center">El tratamiento de la casa de 2 horas de duración transporta a 
+                            <p class="text-center">El tratamiento de la casa de dos horas de duración transporta a 
                                 los clientes a un oasis de relajación. Incluye un masaje de espalda, hombros, piernas y 
                                 pies utilizando aceites de masaje.</p>
                         </div>
@@ -76,7 +76,7 @@
                                 <img src="<?php echo base_url() ?>public/assets/img/photo-1515377905703-c4788e51af15.JPG" class="card-img-top imagCard efectImag">
                                 <div class="card-body">
                                     <h5 class="card-title textBody">EXFOLIACIÓN CON PRODUCTOS NATURALES</h5>
-                                    <p class="card-text text-center">El tratamiento de la casa de 2 horas de duración transporta a los clientes a un oasis de relajación Incluye un masaje de espalda, hombros, piernas y pies</p>
+                                    <p class="card-text text-center">El tratamiento de la casa de dos horas de duración transporta a los clientes a un oasis de relajación Incluye un masaje de espalda, hombros, piernas y pies</p>
                                 </div>
                             </div>
                         </div>
@@ -85,7 +85,7 @@
                                 <img src="<?php echo base_url() ?>public/assets/img/photo-1552693673-1bf958298935.JPG" class="card-img-top imagCard efectImag">
                                 <div class="card-body">
                                     <h5 class="card-title textBody">RECONSTRUCCIÓN FACIAL</h5>
-                                    <p class="card-text text-center">El tratamiento de la casa de 2 horas de duración transporta a los clientes a un oasis de relajación Incluye un masaje de espalda, hombros, piernas y pies</p>
+                                    <p class="card-text text-center">El tratamiento de la casa de dos horas de duración transporta a los clientes a un oasis de relajación Incluye un masaje de espalda, hombros, piernas y pies</p>
                                 </div>
                             </div>
                         </div>
@@ -120,24 +120,46 @@
                         <li data-target="#carouselCaptions" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselCaptions" data-slide-to="1"></li>
                         <li data-target="#carouselCaptions" data-slide-to="2"></li>
-                        <li data-target="#carouselCaptions" data-slide-to="3"></li>
-                        <li data-target="#carouselCaptions" data-slide-to="4"></li>
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-interval="2000">
-                            <img src="<?php echo base_url() ?>public/assets/img/photo-1554057009-6798cb3d4a04.JPG" class="d-block w-100 imgCarousel">
+                            <div class="row">
+                                <div class="col-md-4 clearfix d-none d-md-block">
+                                    <img class="card-img-top aboutCarouselImg" src="<?php echo base_url() ?>public/assets/img/photo-1555820585-c5ae44394b79.JPG" alt="Responsive image">
+                                </div>
+                                <div class="col-md-4 clearfix d-none d-md-block">
+                                    <img class="card-img-top aboutCarouselImg" src="<?php echo base_url() ?>public/assets/img/photo-1554057009-6798cb3d4a04.JPG" alt="Responsive image">
+                                </div>
+                                <div class="col-md-4 clearfix d-none d-md-block">
+                                    <img class="card-img-top aboutCarouselImg" src="<?php echo base_url() ?>public/assets/img/photo-1513104806186-1b00f3e7a65e.JPG" alt="Responsive image">
+                                </div>
+                            </div>
                         </div>
                         <div class="carousel-item" data-interval="2000">
-                            <img src="<?php echo base_url() ?>public/assets/img/photo-1560944527-a4a429848866.JPG" class="d-block w-100 imgCarousel">
+                            <div class="row">
+                                <div class="col-md-4 clearfix d-none d-md-block">
+                                    <img class="card-img-top aboutCarouselImg" src="<?php echo base_url() ?>public/assets/img/photo-1553540751-988bd7918c7e.JPG" alt="Responsive image">
+                                </div>
+                                <div class="col-md-4 clearfix d-none d-md-block">
+                                    <img class="card-img-top aboutCarouselImg" src="<?php echo base_url() ?>public/assets/img/photo-1489659639091-8b687bc4386e.JPG" alt="Responsive image">
+                                </div>
+                                <div class="col-md-4 clearfix d-none d-md-block">
+                                    <img class="card-img-top aboutCarouselImg" src="<?php echo base_url() ?>public/assets/img/photo-1515377905703-c4788e51af15.JPG" alt="Responsive image">
+                                </div>
+                            </div>
                         </div>
                         <div class="carousel-item" data-interval="2000">
-                            <img src="<?php echo base_url() ?>public/assets/img/photo-1489659639091-8b687bc4386e.JPG" class="d-block w-100 imgCarousel">
-                        </div>
-                        <div class="carousel-item" data-interval="2000">
-                            <img src="<?php echo base_url() ?>public/assets/img/photo-1531853121101-cb94c8ed218d.JPG" class="d-block w-100 imgCarousel">
-                        </div>
-                        <div class="carousel-item" data-interval="2000">
-                            <img src="<?php echo base_url() ?>public/assets/img/photo-1515377905703-c4788e51af15.JPG" class="d-block w-100 imgCarousel">
+                            <div class="row">
+                                <div class="col-md-4 clearfix d-none d-md-block">
+                                    <img class="card-img-top aboutCarouselImg" src="<?php echo base_url() ?>public/assets/img/photo-1531853121101-cb94c8ed218d.JPG" alt="Responsive image">
+                                </div>
+                                <div class="col-md-4 clearfix d-none d-md-block">
+                                    <img class="card-img-top aboutCarouselImg" src="<?php echo base_url() ?>public/assets/img/photo-1560944527-a4a429848866.JPG" alt="Responsive image">
+                                </div>
+                                <div class="col-md-4 clearfix d-none d-md-block">
+                                    <img class="card-img-top aboutCarouselImg" src="<?php echo base_url() ?>public/assets/img/photo-1559058922-5d29e1f00075.JPG" alt="Responsive image">
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselCaptions" role="button" data-slide="prev">
@@ -176,7 +198,7 @@
             </div>
         </div>
         <div id="containerNow" class="row">
-            <div id="nowImag" class="col-12 align-self-center row">
+            <div id="nowImag" class="col-12 align-self-center row contImg">
                 <div class="col-3"></div>
                 <div class="col-8">
                     <img id="imgNow" src="<?php echo base_url() ?>public/assets/img/photo-1560944527-a4a429848866.JPG" class="img-fluid" alt="Responsive image">
