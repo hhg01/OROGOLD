@@ -36,4 +36,6 @@
 <link rel="stylesheet" href="<?php echo base_url() ?>public/assets/css/StyleFooter.css">
 <script src="<?php echo base_url() ?>public/assets/js/jquery-3.5.1.min.js"></script>
 <script src="<?php echo base_url() ?>public/assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="<?php echo base_url() ?>public/assets/js/Homepage.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBerMlsWSA-CKkLepf_CGPRH9CyfkMPxI0&callback=initMap" async defer></script>
 </html>

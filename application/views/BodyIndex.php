@@ -3,13 +3,34 @@
 
     <div id="container">
         <div id="containerReserve" class="row">
-            <div class="col">
-                OROGOLD
+            <div class="col align-self-center">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-2"></div>
+                        <div id="titleHR" class="col-8">
+                            <p class="textTitleHr">OROGOLD</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-2"></div>
+                        <div class="col-8">
+                            <h2 class="textAbout">Cuando belleza y glamur</h2>
+                            <h2 class="textAbout">van de la mano</h2>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="col-4 align-self-center">
                 <div class="card" style="width: 18rem;">
                     <div class="card-body">
                         <h5 class="card-title">Reserva ahora tu cita</h5>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div id="mensajeCita"></div>
+                            </div>
+                        </div>
                         <div class="form-group">
                             <input type="text" class="form-control" id="name" placeholder="Nombre">
                         </div>
@@ -42,17 +63,17 @@
                 <div class="col-12">
                     <div class="row">
                         <div class="col-4 col-sm-4 col-md-4 align-self-center">
-                            <div class="card" style="width: 18rem;">
-                                <img src="<?php echo base_url() ?>public/assets/img/photo-1516238840914-94dfc0c873ae.JPG" class="card-img-top imagCard">
+                            <div class="card efectCard" style="width: 18rem;">
+                                <img src="<?php echo base_url() ?>public/assets/img/photo-1516238840914-94dfc0c873ae.JPG" class="card-img-top imagCard efectImag">
                                 <div class="card-body">
                                     <h5 class="card-title textBody">MASAJES CON ORO</h5>
-                                    <p class="card-text text-center">SPA Orogold ofrece tratamientos especializados de la mano de nuestros profesionales expertos, con productos excepcionales de marcas galardonadas</p>
+                                    <p class="card-text text-center"><strong>SPA Orogold</strong> ofrece tratamientos especializados de la mano de nuestros profesionales expertos, con productos excepcionales de marcas galardonadas</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-4 col-sm-4 col-md-4 align-self-center">
-                            <div class="card" style="width: 18rem;">
-                                <img src="<?php echo base_url() ?>public/assets/img/photo-1515377905703-c4788e51af15.JPG" class="card-img-top imagCard">
+                            <div class="card efectCard" style="width: 18rem;">
+                                <img src="<?php echo base_url() ?>public/assets/img/photo-1515377905703-c4788e51af15.JPG" class="card-img-top imagCard efectImag">
                                 <div class="card-body">
                                     <h5 class="card-title textBody">EXFOLIACIÓN CON PRODUCTOS NATURALES</h5>
                                     <p class="card-text text-center">El tratamiento de la casa de 2 horas de duración transporta a los clientes a un oasis de relajación Incluye un masaje de espalda, hombros, piernas y pies</p>
@@ -60,8 +81,8 @@
                             </div>
                         </div>
                         <div class="col-4 col-sm-4 col-md-4 align-self-center">
-                            <div class="card" style="width: 18rem;">
-                                <img src="<?php echo base_url() ?>public/assets/img/photo-1552693673-1bf958298935.JPG" class="card-img-top imagCard">
+                            <div class="card efectCard" style="width: 18rem;">
+                                <img src="<?php echo base_url() ?>public/assets/img/photo-1552693673-1bf958298935.JPG" class="card-img-top imagCard efectImag">
                                 <div class="card-body">
                                     <h5 class="card-title textBody">RECONSTRUCCIÓN FACIAL</h5>
                                     <p class="card-text text-center">El tratamiento de la casa de 2 horas de duración transporta a los clientes a un oasis de relajación Incluye un masaje de espalda, hombros, piernas y pies</p>
@@ -73,7 +94,26 @@
             </div>
         </div>
         <div id="containerAbout" class="row">
-            <div id="aboutImag" class="col-12 align-self-center"></div>
+            <div id="aboutImag" class="col-12 align-self-center">
+                <div id="contentAbout">
+                    <div class="col-12 align-self-center">
+                        <h2 id="titleAbout">QUIENES SOMOS</h2>
+                    </div>
+                    <div class="col-12 align-self-center">
+                        <div class="row">
+                            <div class="col-2 align-self-center"></div>
+                            <div class="col-8 align-self-center">
+                                <p class="text-center textAbout">El lujoso spa en Orogold. En México, ofrece un refugio sublime en pleno corazón de la ciudad.</p>
+                                <p class="text-center textAbout">Los huéspedes pueden disfrutar de un gimnasio de última generación, 
+                                    una relajante sauna o ducha a chorro durante su escapada de 5 estrellas en nuestro hotel 
+                                    boutique en parís. Por otra parte, nuestra nueva asociación con zeal cosmetics asegura la 
+                                    disponibilidad de una gama de relajantes tratamientos faciales y corporales para mimarse y 
+                                    revitalizarse.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div id="aboutCarousel" class="col-12 align-self-center">
                 <div id="carouselCaptions" class="carousel slide z-depth-1-half" data-ride="carousel">
                     <ol class="carousel-indicators">
@@ -112,8 +152,8 @@
             </div>
         </div>
         <div id="containerMap" class="row">
-            <div class="col align-self-center" style="background-color: red">
-                OROGOLD
+            <div class="col">
+                <div id="map"></div>
             </div>
             <div class="col-4 align-self-center">
                 <div class="card" style="width: 18rem;">
@@ -130,7 +170,7 @@
                         <div class="form-group">
                             <p>Av. Insurgentes sur 106, roma sur, Cuauhtémoc, 06600 Ciudad de México, cdmx México</p>
                         </div>
-                        <button type="button" class="btn btn-outline-dark">Ver en Mapa</button>
+                        <button id="btnMap" type="button" class="btn btn-outline-dark">Ver en Mapa</button>
                     </div>
                 </div>
             </div>
