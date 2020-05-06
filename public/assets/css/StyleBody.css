@@ -1,7 +1,52 @@
 #containerReserve {
     background-image: url("http://localhost/OROGOLD/public/assets/img/bg-principal.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;;
+    background-size: 100% 100%;
     background-color: black;
     height: 500px;
+}
+
+.imagCard {
+    border-radius: 50%;
+    height: 180px;
+}
+
+.textBody {
+    text-align: center;
+    color: #AC9242;
+}
+
+#containerTreatment {
+    margin-left: 100px;
+    height: 500px;
+}
+
+#containerAbout {
+    height: 500px;
+}
+
+#aboutImag {
+    background-image: url("http://localhost/OROGOLD/public/assets/img/photo-1520473378652-85d9c4aee6cf.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    height: 300px;
+}
+
+#aboutCarousel {
+    height: 200px;
+}
+
+.imgCarousel {
+    width: 10px;
+    height: 200px;
+}
+
+#btnAppointment {
+    background-color: #AC9242;
+    color: white;
+}
+
+.card {
+    border: none;
 }
