@@ -33,7 +33,9 @@
                     <div class="row">
                         <div class="col-2 align-self-center"></div>
                         <div class="col-8 align-self-center">
-                            <p class="text-center">El tratamiento de la casa de 2 horas de duración transporta a los clientes a un oasis de relajación. Incluye un masaje de espalda, hombros, piernas y pies utilizando aceites de masaje.</p>
+                            <p class="text-center">El tratamiento de la casa de 2 horas de duración transporta a 
+                                los clientes a un oasis de relajación. Incluye un masaje de espalda, hombros, piernas y 
+                                pies utilizando aceites de masaje.</p>
                         </div>
                     </div>
                 </div>
@@ -109,17 +111,61 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col">
-                mapa
+        <div id="containerMap" class="row">
+            <div class="col align-self-center" style="background-color: red">
+                OROGOLD
             </div>
-            <div class="col">
-                horario
+            <div class="col-4 align-self-center">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title textBodyHr">HORARIOS</h5>
+                        <div class="form-group">
+                            <p>Lunes a Viernes de 10:00 a 19:30</p>
+                            <p>Sábados, Domingos y festivos de 10:00 a 18:30</p>
+                        </div>
+                        <div class="form-group">
+                            <p>Pueden concertarse tratamientos fuera del horario de apertura indicando con cita previa.</p>
+                        </div>
+                        <h5 class="card-title textBodyHr">DIRECCIÓN</h5>
+                        <div class="form-group">
+                            <p>Av. Insurgentes sur 106, roma sur, Cuauhtémoc, 06600 Ciudad de México, cdmx México</p>
+                        </div>
+                        <button type="button" class="btn btn-outline-dark">Ver en Mapa</button>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col">
-                oportunidad
+        <div id="containerNow" class="row">
+            <div id="nowImag" class="col-12 align-self-center row">
+                <div class="col-3"></div>
+                <div class="col-8">
+                    <img id="imgNow" src="<?php echo base_url() ?>public/assets/img/photo-1560944527-a4a429848866.JPG" class="img-fluid" alt="Responsive image">
+                </div>
+            </div>
+            <div id="infoNow" class="col-12 align-self-center row">
+                <div class="col-12 align-self-center">
+                    <h2 class="textBody">NO DEJES PASAR ESTA OPORTUNIDAD</h2>
+                </div>
+                <div class="col-12 align-self-center">
+                    <div class="row">
+                        <div class="col-2 align-self-center"></div>
+                        <div class="col-8 align-self-center">
+                            <p class="text-center">Sabías que un masaje debido a su acción calmante y analgésica viene 
+                                dada mediante actos reflejos que afectan al sistema nervioso central o esta causa la 
+                                liberación de endorfinas que anulan las sensaciones de dolor en el cerebro. 
+                                El estímulo de los mecanos receptores mediante el masaje se ha demostrado que alivia el dolor y 
+                                la tensión muscular.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 align-self-center">
+                    <div class="row">
+                        <div class="col-5 align-self-center"></div>
+                        <div class="col-2 align-self-center">
+                            <button id="btnAppointmentNow" type="button" class="btn btn-block">Reserva ahora</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

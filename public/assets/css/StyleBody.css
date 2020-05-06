@@ -15,6 +15,9 @@
     text-align: center;
     color: #AC9242;
 }
+.textBodyHr {
+    color: #AC9242;
+}
 
 #containerTreatment {
     margin-left: 100px;
@@ -25,12 +28,28 @@
     height: 500px;
 }
 
+#containerMap {
+    height: 500px;
+}
+
+#containerNow {
+    height: 800px;
+}
+
 #aboutImag {
     background-image: url("http://localhost/OROGOLD/public/assets/img/photo-1520473378652-85d9c4aee6cf.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.9;
     height: 300px;
+}
+
+#nowImag {
+    height: 500px;
+}
+
+#imgNow {
+    height: 500px;
 }
 
 #aboutCarousel {
@@ -42,7 +61,7 @@
     height: 200px;
 }
 
-#btnAppointment {
+#btnAppointment, #btnAppointmentNow {
     background-color: #AC9242;
     color: white;
 }
