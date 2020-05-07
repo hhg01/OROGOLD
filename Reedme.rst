@@ -1,3 +1,7 @@
+/**Sistema**/
+esta realizado en php con codeigniter para poder verlo debes tener esta carpeta en xampp/htdocs,
+no olvides comensar tu servidor local y realizar los ajustes de la base dedatos correspondientes
+
 /**Base de Datos**/
 LA base de datos esta guardada en orogold.sql puedes importarla y no olvides cambiar la configuración en
 application/config/database.php
@@ -6,6 +10,9 @@ application/config/database.php
     'username' => 'root',
     'password' => '',
     'database' => 'orogold',
+
+/**Api Key Google Maps**/
+por cuestiones de seseguridad se retira la api key del Footer.php para la integracion del mapa
 
 /**Vistas**/
 Se agregaron dos vistas en view/templates
